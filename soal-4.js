@@ -28,8 +28,39 @@ expected output:
 
 const filterGrade7 = (dataStudent) => {
   // sesuaikan
-  
+
+  // initial variable
+  let studentFiltered = [];
+
+  // prosesnya (pake for)
+  for (let i = 0; i < dataStudent.length; i++) {
+    if (dataStudent[i].grade > 7) {
+      studentFiltered.push(dataStudent[i])
+    }
+  }
+
+  // prosesnya (pake forEach)
+  // dataStudent.forEach(v => {
+  //   if (v.grade > 7) {
+  //     studentFiltered.push(v);
+  //   }
+  // });
+
+  // returnnya
+  return studentFiltered;
 };
+
+
+// realnya pake js filter
 
 let filteredStudents = filterGrade7(students);
 console.log(filteredStudents);
+
+let filterWithJsFilter = students.filter(eachStudent => {
+  return eachStudent.grade > 7;// return boolean, true/false
+})
+
+// kalau cuma 1 baris, di isi filternya, bisa dibuat:
+// let filterWithJsFilter = students.filter(eachStudent => eachStudent.grade > 7);
+
+console.log('filter with js filter', filterWithJsFilter);
