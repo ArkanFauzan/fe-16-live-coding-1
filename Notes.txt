@@ -1,0 +1,13 @@
+
+Yang perlu dijelaskan
+- jelaskan array, string, object bisa diapain aja! cari di w3school
+- jelaskan array
+	- akses property
+	- akses property banyak => makanya butuh looping
+- jelaskan looping
+- jelaskan function
+	- untuk apa?
+	- apa itu function param
+   	- apa itu function return
+- jelaskan object
+	-akses property
