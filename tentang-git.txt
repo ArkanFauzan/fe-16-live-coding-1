@@ -1,0 +1,26 @@
+
+clone
+pull
+push
+status
+add
+commit
+history/list commit
+
+branch
+pindah2 branch
+merge 2 branch
+
+stash
+cerry-pick
+rebase
+reset --soft
+reset --hard
+
+
+dari sisi githubnya:
+fork : copy repo orang jadi repo kita
+commit perubahan/update dari kita
+pull request: submit commit kita ke repo orang tersebut
+
+terserah orang yg punya repo, mau diterapin (acc) atau engga
