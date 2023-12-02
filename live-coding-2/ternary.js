@@ -1,6 +1,6 @@
 
 let huruf = "";
-let karakter = "iola41js4h14dfoil412as41h41lj4k1df4h1au4j1s4h1";
+let karakter = "iola41js4h14dfoil412as41h41lj4k1df4h1au4j1s4h13";
 
 // huruf = huruf + "a";
 // huruf += "c";
@@ -14,7 +14,7 @@ let karakter = "iola41js4h14dfoil412as41h41lj4k1df4h1au4j1s4h1";
 // huruf += true ? "m" : "";
 
 for (let i = 0; i < karakter.length; i++) {
-  huruf += parseInt(karakter[i]) >= 0 ? "" : karakter[i];
+  huruf += isNaN( parseInt(karakter[i]) ) ? karakter[i] : "";
 }
 
 console.log(huruf);
